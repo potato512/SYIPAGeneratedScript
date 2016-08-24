@@ -49,4 +49,11 @@ make a ipa by script——使用脚本生成ipa包
 # xctool：https://github.com/facebook/xctool
 # 蒲公英：https://www.pgyer.com
 
-# 脚本执行方法：终端-sh 脚本文件-回车
+# 脚本执行方法：终端-sh 脚本文件-回车。
+# 如下图所示：
+![终端操作执行](./images/00.png)
+
+![项目目录](./images/1-1.png)
+
+![生成包目录](./images/1-2.png)
+
