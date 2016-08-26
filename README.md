@@ -29,12 +29,12 @@ make a ipa by script——使用脚本生成ipa包
  * 3 获取target/schemes：终端->cd 项目目录->进入项目目录后，执行命令"xcodebuild -list"
 
 # plist配置文件说明（四个参数：method、teamID、uploadSymbols、uploadBitcode）
-# 测试用时，仅使用method-development/ad-hoc、uploadBitcode-NO
-# plist文件配置说明
- * 1 提交App Store的plist文件参数设置，如：AppStoreExportOptions.plist：method＝app-store，uploadBitcode＝YES，uploadSymbols＝YES
- * 2 内测的plist文件参数设置，如：TestExportOptions.plist：method＝ad-hoc，compileBitcode＝NO
- * 3 method的可选值为：app-store, package, ad-hoc, enterprise, development, developer-id
-# The Export Options Plist
+ * 测试用时，仅使用method-development/ad-hoc、uploadBitcode-NO
+ * plist文件配置说明
+  * 1 提交App Store的plist文件参数设置，如：AppStoreExportOptions.plist：method＝app-store，uploadBitcode＝YES，uploadSymbols＝YES
+  * 2 内测的plist文件参数设置，如：TestExportOptions.plist：method＝ad-hoc，compileBitcode＝NO
+  * 3 method的可选值为：app-store, package, ad-hoc, enterprise, development, developer-id
+ * The Export Options Plist
  * method: (String) The method of distribution, which can be set as any of the following:
   * app-store
   * enterprise
