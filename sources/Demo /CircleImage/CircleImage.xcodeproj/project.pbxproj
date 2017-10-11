@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D96501319A31F6F00795A24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96501219A31F6F00795A24 /* Cocoa.framework */; };
+		3D96501D19A31F6F00795A24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D96501B19A31F6F00795A24 /* InfoPlist.strings */; };
+		3D96501F19A31F6F00795A24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D96501E19A31F6F00795A24 /* main.m */; };
+		3D96502319A31F6F00795A24 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3D96502119A31F6F00795A24 /* Credits.rtf */; };
+		3D96502619A31F6F00795A24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D96502519A31F6F00795A24 /* AppDelegate.m */; };
+		3D96502919A31F6F00795A24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D96502719A31F6F00795A24 /* MainMenu.xib */; };
+		3D96502B19A31F6F00795A24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D96502A19A31F6F00795A24 /* Images.xcassets */; };
+		3D96503219A31F6F00795A24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96503119A31F6F00795A24 /* XCTest.framework */; };
+		3D96503319A31F6F00795A24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96501219A31F6F00795A24 /* Cocoa.framework */; };
+		3D96503B19A31F6F00795A24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D96503919A31F6F00795A24 /* InfoPlist.strings */; };
+		3D96503D19A31F6F00795A24 /* CircleImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D96503C19A31F6F00795A24 /* CircleImageTests.m */; };
+		3D96504819A31F9C00795A24 /* Image+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D96504719A31F9C00795A24 /* Image+Circle.m */; };
+		3D96504A19A3219900795A24 /* albumCover_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D96504919A3219900795A24 /* albumCover_default.png */; };
+		3D96504C19A3329200795A24 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D96504B19A3329200795A24 /* 111.png */; };
+		3D96504E19A33E6F00795A24 /* 222.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D96504D19A33E6F00795A24 /* 222.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D96503419A31F6F00795A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D96500719A31F6F00795A24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D96500E19A31F6F00795A24;
+			remoteInfo = CircleImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D96500F19A31F6F00795A24 /* CircleImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D96501219A31F6F00795A24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3D96501519A31F6F00795A24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3D96501619A31F6F00795A24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D96501719A31F6F00795A24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D96501A19A31F6F00795A24 /* CircleImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleImage-Info.plist"; sourceTree = "<group>"; };
+		3D96501C19A31F6F00795A24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D96501E19A31F6F00795A24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D96502019A31F6F00795A24 /* CircleImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleImage-Prefix.pch"; sourceTree = "<group>"; };
+		3D96502219A31F6F00795A24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3D96502419A31F6F00795A24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D96502519A31F6F00795A24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D96502819A31F6F00795A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D96502A19A31F6F00795A24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D96503019A31F6F00795A24 /* CircleImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D96503119A31F6F00795A24 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D96503819A31F6F00795A24 /* CircleImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleImageTests-Info.plist"; sourceTree = "<group>"; };
+		3D96503A19A31F6F00795A24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D96503C19A31F6F00795A24 /* CircleImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleImageTests.m; sourceTree = "<group>"; };
+		3D96504619A31F9C00795A24 /* Image+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+Circle.h"; sourceTree = "<group>"; };
+		3D96504719A31F9C00795A24 /* Image+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+Circle.m"; sourceTree = "<group>"; };
+		3D96504919A3219900795A24 /* albumCover_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albumCover_default.png; sourceTree = "<group>"; };
+		3D96504B19A3329200795A24 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		3D96504D19A33E6F00795A24 /* 222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 222.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D96500C19A31F6F00795A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D96501319A31F6F00795A24 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D96502D19A31F6F00795A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D96503319A31F6F00795A24 /* Cocoa.framework in Frameworks */,
+				3D96503219A31F6F00795A24 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D96500619A31F6F00795A24 = {
+			isa = PBXGroup;
+			children = (
+				3D96504D19A33E6F00795A24 /* 222.png */,
+				3D96504B19A3329200795A24 /* 111.png */,
+				3D96504919A3219900795A24 /* albumCover_default.png */,
+				3D96504619A31F9C00795A24 /* Image+Circle.h */,
+				3D96504719A31F9C00795A24 /* Image+Circle.m */,
+				3D96501819A31F6F00795A24 /* CircleImage */,
+				3D96503619A31F6F00795A24 /* CircleImageTests */,
+				3D96501119A31F6F00795A24 /* Frameworks */,
+				3D96501019A31F6F00795A24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D96501019A31F6F00795A24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D96500F19A31F6F00795A24 /* CircleImage.app */,
+				3D96503019A31F6F00795A24 /* CircleImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D96501119A31F6F00795A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D96501219A31F6F00795A24 /* Cocoa.framework */,
+				3D96503119A31F6F00795A24 /* XCTest.framework */,
+				3D96501419A31F6F00795A24 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D96501419A31F6F00795A24 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D96501519A31F6F00795A24 /* AppKit.framework */,
+				3D96501619A31F6F00795A24 /* CoreData.framework */,
+				3D96501719A31F6F00795A24 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3D96501819A31F6F00795A24 /* CircleImage */ = {
+			isa = PBXGroup;
+			children = (
+				3D96502419A31F6F00795A24 /* AppDelegate.h */,
+				3D96502519A31F6F00795A24 /* AppDelegate.m */,
+				3D96502719A31F6F00795A24 /* MainMenu.xib */,
+				3D96502A19A31F6F00795A24 /* Images.xcassets */,
+				3D96501919A31F6F00795A24 /* Supporting Files */,
+			);
+			path = CircleImage;
+			sourceTree = "<group>";
+		};
+		3D96501919A31F6F00795A24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D96501A19A31F6F00795A24 /* CircleImage-Info.plist */,
+				3D96501B19A31F6F00795A24 /* InfoPlist.strings */,
+				3D96501E19A31F6F00795A24 /* main.m */,
+				3D96502019A31F6F00795A24 /* CircleImage-Prefix.pch */,
+				3D96502119A31F6F00795A24 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D96503619A31F6F00795A24 /* CircleImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D96503C19A31F6F00795A24 /* CircleImageTests.m */,
+				3D96503719A31F6F00795A24 /* Supporting Files */,
+			);
+			path = CircleImageTests;
+			sourceTree = "<group>";
+		};
+		3D96503719A31F6F00795A24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D96503819A31F6F00795A24 /* CircleImageTests-Info.plist */,
+				3D96503919A31F6F00795A24 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D96500E19A31F6F00795A24 /* CircleImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D96504019A31F6F00795A24 /* Build configuration list for PBXNativeTarget "CircleImage" */;
+			buildPhases = (
+				3D96500B19A31F6F00795A24 /* Sources */,
+				3D96500C19A31F6F00795A24 /* Frameworks */,
+				3D96500D19A31F6F00795A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleImage;
+			productName = CircleImage;
+			productReference = 3D96500F19A31F6F00795A24 /* CircleImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D96502F19A31F6F00795A24 /* CircleImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D96504319A31F6F00795A24 /* Build configuration list for PBXNativeTarget "CircleImageTests" */;
+			buildPhases = (
+				3D96502C19A31F6F00795A24 /* Sources */,
+				3D96502D19A31F6F00795A24 /* Frameworks */,
+				3D96502E19A31F6F00795A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D96503519A31F6F00795A24 /* PBXTargetDependency */,
+			);
+			name = CircleImageTests;
+			productName = CircleImageTests;
+			productReference = 3D96503019A31F6F00795A24 /* CircleImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D96500719A31F6F00795A24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joni;
+				TargetAttributes = {
+					3D96502F19A31F6F00795A24 = {
+						TestTargetID = 3D96500E19A31F6F00795A24;
+					};
+				};
+			};
+			buildConfigurationList = 3D96500A19A31F6F00795A24 /* Build configuration list for PBXProject "CircleImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D96500619A31F6F00795A24;
+			productRefGroup = 3D96501019A31F6F00795A24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D96500E19A31F6F00795A24 /* CircleImage */,
+				3D96502F19A31F6F00795A24 /* CircleImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D96500D19A31F6F00795A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D96501D19A31F6F00795A24 /* InfoPlist.strings in Resources */,
+				3D96502B19A31F6F00795A24 /* Images.xcassets in Resources */,
+				3D96504A19A3219900795A24 /* albumCover_default.png in Resources */,
+				3D96504C19A3329200795A24 /* 111.png in Resources */,
+				3D96502319A31F6F00795A24 /* Credits.rtf in Resources */,
+				3D96504E19A33E6F00795A24 /* 222.png in Resources */,
+				3D96502919A31F6F00795A24 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D96502E19A31F6F00795A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D96503B19A31F6F00795A24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D96500B19A31F6F00795A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D96502619A31F6F00795A24 /* AppDelegate.m in Sources */,
+				3D96504819A31F9C00795A24 /* Image+Circle.m in Sources */,
+				3D96501F19A31F6F00795A24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D96502C19A31F6F00795A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D96503D19A31F6F00795A24 /* CircleImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D96503519A31F6F00795A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D96500E19A31F6F00795A24 /* CircleImage */;
+			targetProxy = 3D96503419A31F6F00795A24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D96501B19A31F6F00795A24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D96501C19A31F6F00795A24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D96502119A31F6F00795A24 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D96502219A31F6F00795A24 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3D96502719A31F6F00795A24 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D96502819A31F6F00795A24 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3D96503919A31F6F00795A24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D96503A19A31F6F00795A24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D96503E19A31F6F00795A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D96503F19A31F6F00795A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D96504119A31F6F00795A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleImage/CircleImage-Prefix.pch";
+				INFOPLIST_FILE = "CircleImage/CircleImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D96504219A31F6F00795A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleImage/CircleImage-Prefix.pch";
+				INFOPLIST_FILE = "CircleImage/CircleImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D96504419A31F6F00795A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircleImage.app/Contents/MacOS/CircleImage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleImage/CircleImage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CircleImageTests/CircleImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D96504519A31F6F00795A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircleImage.app/Contents/MacOS/CircleImage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleImage/CircleImage-Prefix.pch";
+				INFOPLIST_FILE = "CircleImageTests/CircleImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D96500A19A31F6F00795A24 /* Build configuration list for PBXProject "CircleImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D96503E19A31F6F00795A24 /* Debug */,
+				3D96503F19A31F6F00795A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D96504019A31F6F00795A24 /* Build configuration list for PBXNativeTarget "CircleImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D96504119A31F6F00795A24 /* Debug */,
+				3D96504219A31F6F00795A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D96504319A31F6F00795A24 /* Build configuration list for PBXNativeTarget "CircleImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D96504419A31F6F00795A24 /* Debug */,
+				3D96504519A31F6F00795A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D96500719A31F6F00795A24 /* Project object */;
+}

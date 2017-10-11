@@ -60,9 +60,13 @@ make a ipa by script——使用脚本生成ipa包
 ![生成包目录](./images/1-2.png)
 
 # 待完善
- * 1 svn脚本update下载最新代码
- * 2 shell脚本修改项目信息（如：app名称）
- * 3 shell脚本创建及修改文件（如：plist文件及其内容）
- * ……
+* 20171011
+  * OS X软件开发
+
+* 20171011前
+  * 1 svn脚本update下载最新代码
+  * 2 shell脚本修改项目信息（如：app名称）
+  * 3 shell脚本创建及修改文件（如：plist文件及其内容）
+  * ……
 
 

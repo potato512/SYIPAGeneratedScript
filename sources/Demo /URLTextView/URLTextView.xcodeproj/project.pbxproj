@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D28A61419A1E0CC00E2C213 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D28A61319A1E0CC00E2C213 /* Cocoa.framework */; };
+		3D28A61E19A1E0CC00E2C213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D28A61C19A1E0CC00E2C213 /* InfoPlist.strings */; };
+		3D28A62019A1E0CC00E2C213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28A61F19A1E0CC00E2C213 /* main.m */; };
+		3D28A62419A1E0CC00E2C213 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3D28A62219A1E0CC00E2C213 /* Credits.rtf */; };
+		3D28A62719A1E0CC00E2C213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28A62619A1E0CC00E2C213 /* AppDelegate.m */; };
+		3D28A62A19A1E0CC00E2C213 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D28A62819A1E0CC00E2C213 /* MainMenu.xib */; };
+		3D28A62C19A1E0CC00E2C213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D28A62B19A1E0CC00E2C213 /* Images.xcassets */; };
+		3D28A63319A1E0CC00E2C213 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D28A63219A1E0CC00E2C213 /* XCTest.framework */; };
+		3D28A63419A1E0CC00E2C213 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D28A61319A1E0CC00E2C213 /* Cocoa.framework */; };
+		3D28A63C19A1E0CC00E2C213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D28A63A19A1E0CC00E2C213 /* InfoPlist.strings */; };
+		3D28A63E19A1E0CC00E2C213 /* URLTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28A63D19A1E0CC00E2C213 /* URLTextViewTests.m */; };
+		3D28A64A19A1E11100E2C213 /* URLMatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28A64819A1E11100E2C213 /* URLMatchController.m */; };
+		3D28A64B19A1E11100E2C213 /* URLMatchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D28A64919A1E11100E2C213 /* URLMatchController.xib */; };
+		3D30337119F7812B007F72FD /* URLReplaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D30336F19F7812B007F72FD /* URLReplaceController.m */; };
+		3D30337219F7812B007F72FD /* URLReplaceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D30337019F7812B007F72FD /* URLReplaceController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D28A63519A1E0CC00E2C213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D28A60819A1E0CC00E2C213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D28A60F19A1E0CC00E2C213;
+			remoteInfo = URLTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D28A61019A1E0CC00E2C213 /* URLTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D28A61319A1E0CC00E2C213 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3D28A61619A1E0CC00E2C213 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3D28A61719A1E0CC00E2C213 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D28A61819A1E0CC00E2C213 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D28A61B19A1E0CC00E2C213 /* URLTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLTextView-Info.plist"; sourceTree = "<group>"; };
+		3D28A61D19A1E0CC00E2C213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D28A61F19A1E0CC00E2C213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D28A62119A1E0CC00E2C213 /* URLTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLTextView-Prefix.pch"; sourceTree = "<group>"; };
+		3D28A62319A1E0CC00E2C213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3D28A62519A1E0CC00E2C213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D28A62619A1E0CC00E2C213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D28A62919A1E0CC00E2C213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D28A62B19A1E0CC00E2C213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D28A63119A1E0CC00E2C213 /* URLTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D28A63219A1E0CC00E2C213 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D28A63919A1E0CC00E2C213 /* URLTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		3D28A63B19A1E0CC00E2C213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D28A63D19A1E0CC00E2C213 /* URLTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLTextViewTests.m; sourceTree = "<group>"; };
+		3D28A64719A1E11100E2C213 /* URLMatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMatchController.h; sourceTree = "<group>"; };
+		3D28A64819A1E11100E2C213 /* URLMatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLMatchController.m; sourceTree = "<group>"; };
+		3D28A64919A1E11100E2C213 /* URLMatchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URLMatchController.xib; sourceTree = "<group>"; };
+		3D30336E19F7812B007F72FD /* URLReplaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLReplaceController.h; sourceTree = "<group>"; };
+		3D30336F19F7812B007F72FD /* URLReplaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLReplaceController.m; sourceTree = "<group>"; };
+		3D30337019F7812B007F72FD /* URLReplaceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URLReplaceController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D28A60D19A1E0CC00E2C213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D28A61419A1E0CC00E2C213 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D28A62E19A1E0CC00E2C213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D28A63419A1E0CC00E2C213 /* Cocoa.framework in Frameworks */,
+				3D28A63319A1E0CC00E2C213 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D28A60719A1E0CC00E2C213 = {
+			isa = PBXGroup;
+			children = (
+				3D28A61919A1E0CC00E2C213 /* URLTextView */,
+				3D28A63719A1E0CC00E2C213 /* URLTextViewTests */,
+				3D28A61219A1E0CC00E2C213 /* Frameworks */,
+				3D28A61119A1E0CC00E2C213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D28A61119A1E0CC00E2C213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A61019A1E0CC00E2C213 /* URLTextView.app */,
+				3D28A63119A1E0CC00E2C213 /* URLTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D28A61219A1E0CC00E2C213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A61319A1E0CC00E2C213 /* Cocoa.framework */,
+				3D28A63219A1E0CC00E2C213 /* XCTest.framework */,
+				3D28A61519A1E0CC00E2C213 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D28A61519A1E0CC00E2C213 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A61619A1E0CC00E2C213 /* AppKit.framework */,
+				3D28A61719A1E0CC00E2C213 /* CoreData.framework */,
+				3D28A61819A1E0CC00E2C213 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3D28A61919A1E0CC00E2C213 /* URLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A62519A1E0CC00E2C213 /* AppDelegate.h */,
+				3D28A62619A1E0CC00E2C213 /* AppDelegate.m */,
+				3D28A62819A1E0CC00E2C213 /* MainMenu.xib */,
+				3D28A62B19A1E0CC00E2C213 /* Images.xcassets */,
+				3D28A61A19A1E0CC00E2C213 /* Supporting Files */,
+				3D28A64719A1E11100E2C213 /* URLMatchController.h */,
+				3D28A64819A1E11100E2C213 /* URLMatchController.m */,
+				3D28A64919A1E11100E2C213 /* URLMatchController.xib */,
+				3D30336E19F7812B007F72FD /* URLReplaceController.h */,
+				3D30336F19F7812B007F72FD /* URLReplaceController.m */,
+				3D30337019F7812B007F72FD /* URLReplaceController.xib */,
+			);
+			path = URLTextView;
+			sourceTree = "<group>";
+		};
+		3D28A61A19A1E0CC00E2C213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A61B19A1E0CC00E2C213 /* URLTextView-Info.plist */,
+				3D28A61C19A1E0CC00E2C213 /* InfoPlist.strings */,
+				3D28A61F19A1E0CC00E2C213 /* main.m */,
+				3D28A62119A1E0CC00E2C213 /* URLTextView-Prefix.pch */,
+				3D28A62219A1E0CC00E2C213 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D28A63719A1E0CC00E2C213 /* URLTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A63D19A1E0CC00E2C213 /* URLTextViewTests.m */,
+				3D28A63819A1E0CC00E2C213 /* Supporting Files */,
+			);
+			path = URLTextViewTests;
+			sourceTree = "<group>";
+		};
+		3D28A63819A1E0CC00E2C213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D28A63919A1E0CC00E2C213 /* URLTextViewTests-Info.plist */,
+				3D28A63A19A1E0CC00E2C213 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D28A60F19A1E0CC00E2C213 /* URLTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D28A64119A1E0CC00E2C213 /* Build configuration list for PBXNativeTarget "URLTextView" */;
+			buildPhases = (
+				3D28A60C19A1E0CC00E2C213 /* Sources */,
+				3D28A60D19A1E0CC00E2C213 /* Frameworks */,
+				3D28A60E19A1E0CC00E2C213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLTextView;
+			productName = URLTextView;
+			productReference = 3D28A61019A1E0CC00E2C213 /* URLTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D28A63019A1E0CC00E2C213 /* URLTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D28A64419A1E0CC00E2C213 /* Build configuration list for PBXNativeTarget "URLTextViewTests" */;
+			buildPhases = (
+				3D28A62D19A1E0CC00E2C213 /* Sources */,
+				3D28A62E19A1E0CC00E2C213 /* Frameworks */,
+				3D28A62F19A1E0CC00E2C213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D28A63619A1E0CC00E2C213 /* PBXTargetDependency */,
+			);
+			name = URLTextViewTests;
+			productName = URLTextViewTests;
+			productReference = 3D28A63119A1E0CC00E2C213 /* URLTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D28A60819A1E0CC00E2C213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joni;
+				TargetAttributes = {
+					3D28A63019A1E0CC00E2C213 = {
+						TestTargetID = 3D28A60F19A1E0CC00E2C213;
+					};
+				};
+			};
+			buildConfigurationList = 3D28A60B19A1E0CC00E2C213 /* Build configuration list for PBXProject "URLTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D28A60719A1E0CC00E2C213;
+			productRefGroup = 3D28A61119A1E0CC00E2C213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D28A60F19A1E0CC00E2C213 /* URLTextView */,
+				3D28A63019A1E0CC00E2C213 /* URLTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D28A60E19A1E0CC00E2C213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D28A61E19A1E0CC00E2C213 /* InfoPlist.strings in Resources */,
+				3D28A62C19A1E0CC00E2C213 /* Images.xcassets in Resources */,
+				3D28A62419A1E0CC00E2C213 /* Credits.rtf in Resources */,
+				3D28A62A19A1E0CC00E2C213 /* MainMenu.xib in Resources */,
+				3D30337219F7812B007F72FD /* URLReplaceController.xib in Resources */,
+				3D28A64B19A1E11100E2C213 /* URLMatchController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D28A62F19A1E0CC00E2C213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D28A63C19A1E0CC00E2C213 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D28A60C19A1E0CC00E2C213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D30337119F7812B007F72FD /* URLReplaceController.m in Sources */,
+				3D28A64A19A1E11100E2C213 /* URLMatchController.m in Sources */,
+				3D28A62719A1E0CC00E2C213 /* AppDelegate.m in Sources */,
+				3D28A62019A1E0CC00E2C213 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D28A62D19A1E0CC00E2C213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D28A63E19A1E0CC00E2C213 /* URLTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D28A63619A1E0CC00E2C213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D28A60F19A1E0CC00E2C213 /* URLTextView */;
+			targetProxy = 3D28A63519A1E0CC00E2C213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D28A61C19A1E0CC00E2C213 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D28A61D19A1E0CC00E2C213 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D28A62219A1E0CC00E2C213 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D28A62319A1E0CC00E2C213 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3D28A62819A1E0CC00E2C213 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D28A62919A1E0CC00E2C213 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3D28A63A19A1E0CC00E2C213 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D28A63B19A1E0CC00E2C213 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D28A63F19A1E0CC00E2C213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D28A64019A1E0CC00E2C213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D28A64219A1E0CC00E2C213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLTextView/URLTextView-Prefix.pch";
+				INFOPLIST_FILE = "URLTextView/URLTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D28A64319A1E0CC00E2C213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLTextView/URLTextView-Prefix.pch";
+				INFOPLIST_FILE = "URLTextView/URLTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D28A64519A1E0CC00E2C213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/URLTextView.app/Contents/MacOS/URLTextView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLTextView/URLTextView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "URLTextViewTests/URLTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D28A64619A1E0CC00E2C213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/URLTextView.app/Contents/MacOS/URLTextView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLTextView/URLTextView-Prefix.pch";
+				INFOPLIST_FILE = "URLTextViewTests/URLTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D28A60B19A1E0CC00E2C213 /* Build configuration list for PBXProject "URLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D28A63F19A1E0CC00E2C213 /* Debug */,
+				3D28A64019A1E0CC00E2C213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D28A64119A1E0CC00E2C213 /* Build configuration list for PBXNativeTarget "URLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D28A64219A1E0CC00E2C213 /* Debug */,
+				3D28A64319A1E0CC00E2C213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D28A64419A1E0CC00E2C213 /* Build configuration list for PBXNativeTarget "URLTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D28A64519A1E0CC00E2C213 /* Debug */,
+				3D28A64619A1E0CC00E2C213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D28A60819A1E0CC00E2C213 /* Project object */;
+}
