@@ -33,18 +33,19 @@ echo "plist_path文件路径:$plist_path"
 rm -rf "$plist_path"
 
 # teamID通过查看证书获取（钥匙串-我的证书-选择开发者帐号证书-显示简介-组织单位），或查看描述文件获取（描述文件-显示简介-teamID）
+# method: app-store, package, ad-hoc, enterprise, development, developer-id, and mac-application
 team_ID="YA3584AU76" 
 file_content="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
 <dict>
 <key>teamID</key>
-<string>$team_ID</string> // teamID
+<string>$team_ID</string>
 <key>uploadBitcode</key>
 <false/> // uploadBitcode: true,false
 <key>method</key>
-<string>development</string> // method: app-store, package, ad-hoc, enterprise, development, developer-id, and mac-application
-<key>compileBitcode</key> // 是否编译bitcode
+<string>development</string>
+<key>compileBitcode</key>
 <false/>
 </dict>
 </plist>"
