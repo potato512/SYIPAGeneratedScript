@@ -24,6 +24,50 @@ ipa_path="archive/${target_name}.ipa"
 plist_path="archive/ipaTestExportOptions.plist"
 
 
+echo "<----------操作plist文件---------->"
+
+plist_name="ipaTestExportOptions.plist"
+plist_path="$upload_path/$plist_name"
+echo "plist_path文件路径:$plist_path"
+
+rm -rf "$plist_path"
+
+# teamID通过查看证书获取（钥匙串-我的证书-选择开发者帐号证书-显示简介-组织单位），或查看描述文件获取（描述文件-显示简介-teamID）
+team_ID="YA3584AU76" 
+file_content="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+<key>teamID</key>
+<string>$team_ID</string> // teamID
+<key>uploadBitcode</key>
+<false/> // uploadBitcode: true,false
+<key>method</key>
+<string>development</string> // method: app-store, package, ad-hoc, enterprise, development, developer-id, and mac-application
+<key>compileBitcode</key> // 是否编译bitcode
+<false/>
+</dict>
+</plist>"
+
+if [ -e "$plist_path" ]; then
+	#statements
+	echo "文件存在"
+else
+	echo "文件不存在"
+	cd "$upload_path";
+	pwd
+	touch "$plist_name"
+	if [ -e "$plist_name" ]; then
+		#statements
+		echo "文件创建成功"
+		# 写文件内容
+		echo "$file_content" >> "$plist_name"
+	fi
+fi
+
+echo "<----------操作plist文件---------->"
+
+
 echo "<----------开始删除旧文件---------->"
 
 # 1 删除旧文件
