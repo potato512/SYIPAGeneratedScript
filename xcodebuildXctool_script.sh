@@ -21,7 +21,7 @@ profile_name="testDemoDevelopProfile"
 log_path="archive/log.txt"
 archive_path="archive/${target_name}.xcarchive"
 ipa_path="archive/${target_name}.ipa"
-plist_path="archive/ipaTestExportOptions.plist"
+# plist_path="archive/ipaTestExportOptions.plist"
 
 
 echo "<----------操作plist文件---------->"
