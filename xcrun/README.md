@@ -11,7 +11,7 @@ make a ipa by script——使用脚本生成ipa包
 unable to find utility "PackageApplication", not a developer tool or in PATH
 ```
 
-![PackageApplication异常报错](./xcrun/PackageApplication异常报错.png)
+![PackageApplication异常报错](./PackageApplication异常报错.png)
 
 错误修正
 错误产生原因，是因为新版本的Xcode已经没有**PackageApplication**，需要从老版本里复制一份到新版本的相应目录下。
@@ -26,7 +26,7 @@ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/
 chmod +x /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/PackageApplication
 ```
 
-![PackageApplication异常修正](./xcrun/PackageApplication异常修正.png)
+![PackageApplication异常修正](./PackageApplication异常修正.png)
 
 
 
