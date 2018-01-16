@@ -1,4 +1,3 @@
-
 #<------------------------------------------------------->
 
 # xcodebuild + xcrun
@@ -9,25 +8,31 @@ pwd
 
 # 脚本配置
 # 项目
-target_name="VSTSUPPORT"
+target_name="VSTECS_demo"
 scheme_name="$target_name"
 workspace_name="${target_name}.xcworkspace"
 project_name="${target_name}.xcodeproj"
 configurationType="Release"
 targetProject_destination="generic/platform=iOS"
 # 证书、描述文件
-codesignIdentity_name="iPhone Developer: junjie cai (5BE779GQZQ)"
-profile_UUID="06b7492c-083f-4313-b633-15bc685929a4"
-profile_name="vstsupportDevelopProfile"
-# 目录
-log_path="archive/log.txt"
-archive_path="archive/${target_name}.xcarchive"
-ipa_path="archive/${target_name}.ipa"
+codesignIdentity_name="iPhone Developer: shaoyu zhang (5CD881EFZQ)"
+profile_UUID="a4741133-0eb1-4a82-8df8-dabe11f7c3f4"
+profile_name="VSTECS_demo_DevelopmentProfile"
+# 文件路径
+upload_path="/Users/zhangshaoyu/Desktop/uploadIPA"
+target_path="/Users/zhangshaoyu/Desktop/fastlane_demo/VSTECS_demo"
+log_path="$upload_path/log.txt"
+archive_path="$upload_path/${target_name}.xcarchive"
+ipa_path="$upload_path/${target_name}.ipa"
 
 # 1 删除旧文件
 rm -rf "$log_path"
 rm -rf "$archive_path"
 rm -rf "$ipa_path"
+
+# 打开项目目录
+cd "$target_path"
+pwd
 
 # 2 清理旧项目
 xcodebuild clean -configuration "$configurationType" -alltargets >> "$log_path"
@@ -37,8 +42,7 @@ xcodebuild archive -workspace "$workspace_name" -scheme "$scheme_name" -destinat
 
 
 # 4 导出IPA xcrun（注意：导出包必须使用绝对的全路径）
-pwd
-ipa_path="`pwd`/archive/${target_name}.ipa"
-xcrun -sdk iphoneos PackageApplication -v archive/VSTSUPPORT.xcarchive -o "$ipa_path" >> "$log_path"
+# 注意：新版Xcode（如 8.3.3）因没有文件"PackageApplication"会报错，这时候需要手动添加文件"PackageApplication"到新版Xcode的相应目录下
+xcrun -sdk iphoneos PackageApplication -v "$archive_path" -o "$ipa_path" >> "$log_path"
 
 #<------------------------------------------------------->
