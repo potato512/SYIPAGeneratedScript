@@ -80,6 +80,12 @@ make a ipa by script——使用脚本生成ipa包
 ![生成包目录](./images/1-2.png)
 
 ### 待完善
+* 20180709
+  * plist文件打包时功能完善
+    * xcodebuild/xcodebuildPlist_script.sh
+    * xcodebuild/xcodebuildPlist_script.plist
+    * xcodebuild/xcodebuildPlist_script.png
+    
 * 20180116
   * 目录分类
 

@@ -4,15 +4,13 @@
 <dict>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.vstecs.VSTOB</key>
-		<string>VSTOB_DevelopmentProfile</string>
+		<key>com.sxmaps.education.www</key>
+		<string>newSxmapsEducationDist</string>
 	</dict>
-	<key>signingCertificate</key>
-	<string>iOS Developer</string>
+	<key>compileBitcode</key>
+	<false/>
 	<key>method</key>
-	<string>development</string>
-	<key>teamID</key>
-	<string>YA3584AU76</string>
+	<string>app-store</string>
 	<key>uploadSymbols</key>
 	<false/>
 </dict>

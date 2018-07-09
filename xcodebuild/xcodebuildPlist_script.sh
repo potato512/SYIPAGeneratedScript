@@ -7,22 +7,28 @@
 
 # 脚本配置
 # 项目
-target_name="VSTOB"
+target_name="SXMapsEducation"
 scheme_name="$target_name"
 workspace_name="${target_name}.xcworkspace"
 project_name="${target_name}.xcodeproj"
 configurationType="Release"
 # 证书、描述文件
-codesign_name="iPhone Developer: junjie cai (5BE779GQZQ)"
-profile_UUID="54b84bb5-159b-446b-9ebd-7c3453e40b4f"
-profile_name="VSTOB_DevelopmentProfile"
+# 开发
+# codesign_name="iPhone Developer: 学 升 (XLP2M8HM7Z)"
+# profile_UUID="604c3f11-7199-4051-9cf7-e5bbfc1705c4"
+# profile_name="newSxmapsEducationZSYInit"
+# 发布
+codesign_name="iPhone Distribution: Sxmaps Co,Ltd. (56P78W32BT)"
+profile_UUID="10344d85-efac-4561-be01-cf6c9a8b2370"
+profile_name="newSxmapsEducationDist"
 # 目录
-upload_path="/Users/zhangshaoyu/Desktop/uploadIPA"
+upload_path="/Users/zhangshaoyu/Desktop/build"
 target_path="${upload_path}/${target_name}"
-log_path="$upload_path/log.txt"
-archive_path="$upload_path/${target_name}.xcarchive"
-ipa_path="$upload_path/${target_name}.ipa"
-plist_path="$upload_path/xcodebuildPlist_script.plist"
+log_path="${upload_path}/uploadIPA/log.txt"
+archive_path="${upload_path}/uploadIPA/${target_name}.xcarchive"
+# ipa_path="${upload_path}/uploadIPA/${target_name}.ipa" # 未使用plist文件打包时
+ipa_path="${upload_path}/uploadIPA/ipa/" # 使用plist文件打包时
+plist_path="${upload_path}/xcodebuildPlist_script.plist"
 
 cd "$target_path"
 pwd
@@ -58,3 +64,4 @@ xcodebuild -exportArchive \
 -exportOptionsPlist "$plist_path" -quiet >> "$log_path"
 
 #<------------------------------------------------------->
+
